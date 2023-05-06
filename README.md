@@ -22,3 +22,27 @@ NO2	- Auto-mobiles, and power-plants
 SO2	- fossil fuel incineration (coal & oil)
 O3	- power-plants, industrial-boilers, & biological plants
 
+Ailments brought on by air pollution cost the US $37 billion annually as per the association of Lungs in the US. The increased fatality rate is also a result of air pollution. Harmful air has killed over 4.2 million people saying to the global -air 2017 editorial. Both the ecology and the health of living things are harmed by air pollution. A few of the harmful pollution’s effects air pollution on the ecosystem are fluctuations in climate, and ozone weakening. In the latest ages, a significant enlargement in pollution due to industrialization, fast urbanization, and overcrowding. Approximately 90% of people's time is spent indoors. Included in this are hours spent at home, at work, and at school. According to the Environmental Protection Agency, one of the most serious environmental hazards we face daily is indoor air pollution (EPA). Cleaning supplies, personal care items, paint, and other solvents emit hundreds of harmful compounds every day (Kekulanadara et al., 2021).
+
+In community, a certain disorder will be produced on by each poor air quality factor. An increase in inhalation issues brought on by carbon monoxide results in lower blood oxygen quantities. The respirational system will be impacted by sulphur dioxide, nitrous oxide, and pm2.5, and breathing levels will be impacted by ozone. We must measure and forecast these air pollution factors to regulate them (Saikiran et al., 2021). 
+
+According to the AQI rating, there are six different categories of air quality which are showing in Table 2 along with AQI readings, relevant air quality levels, and health issues.
+
+
+AQI Value	Air Quality Level & health-concern:
+0 -50	‘Good’
+51 - 100	‘Satisfactory’
+101 - 200	‘Moderate’ - Unhealthy for sensitive people
+201 - 300	‘Poor’ - Unhealthy
+301 - 400	‘Very Poor’ - very unhealthy
+400+	‘Severe’ - Hazardous
+
+ML techniques have gained prominence as a result of technical developments, notably in predicting. Because ml processes can deal with different aspects, analyzing diverse material from various resources, and solving sophisticated non-linear problems. Some of the techniques are linear / SVR regressions, Decision Tree, K-NN, and XG-Boosting Regression.
+
+AIM:
+Primary objective of this proposal is to determine best accurate machine learning method for developing models that can predict the AQI. I also want to explain how machine learning helps to lower air pollution.
+
+OBJECTIVES: 
+• Review the AQI-related studies.
+• Conduct a literature study to identify the most common machine learning methods that were used to predict the AQI.
+• To identify and develop the most precise machine learning models for AQI prediction
