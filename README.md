@@ -1,48 +1,171 @@
-# AQI_Prediction_KP
+![Python](https://img.shields.io/badge/Python-Machine_Learning-blue)
+![Azure](https://img.shields.io/badge/Azure-Cloud-blue)
+![PowerBI](https://img.shields.io/badge/PowerBI-Analytics-yellow)
+![XGBoost](https://img.shields.io/badge/XGBoost-ML_Model-green)
+![ScikitLearn](https://img.shields.io/badge/Scikit--Learn-ML-orange)
+![DataEngineering](https://img.shields.io/badge/Data-Engineering-red)
 
-Title: Air Quality Index Prediction By applying Machine Learning Procedures
+# AQI Prediction Platform
 
-Abstract:
+## Overview
 
-Nowadays we can see the high air pollution in Metropolitan areas due to the heavy crowd staying, this is a serious issue. ozone, carbon-monoxide, nitrogen-oxide, sulphur-dioxide, particulate matter (2.5 & 1.0), and particulate matter-PM10 are causing polluting air, and it is released by actions done by people, fuel use, power & transportation. we use these molecules to identify the air quality index, to get this will use machine learning.
-Most companies have started this process to help the environment. Machine Learning is the field to collect data from available sources and give the required output. In this paper, I have chosen this process to predict and forecast air quality values. Mainly I have used the supervised models for prediction, and time series model (prophet) used for forecasting. Linear-regression, Decision Tree, XG-Boost, KNN and, SVR for regression models were used in this research to predict the better AQI.
+This project demonstrates an end-to-end Air Quality Index (AQI) prediction platform using Machine Learning, cloud analytics concepts, and data engineering workflows.
 
+The objective of the project is to predict AQI levels using environmental pollution indicators and build a scalable analytics workflow suitable for modern cloud-based data platforms.
 
-Introduction:
+The project combines:
+- Data preprocessing
+- Machine Learning model development
+- Feature engineering
+- AQI forecasting
+- Analytics reporting
+- Cloud-style architecture principles
 
-The Index of Air Quality called AQI is a daily worldwide assessment of air conditioning. API was founded in 1976 by American Environment department. This index was known as the Standards Index of pollution before its classification as the Air Quality Index (AQI) (PSI). The extremely critical characteristic of this value is that it offers credible information about state of the local air, how it might impact the wellbeing of people, and how to protect human health. The AQI measures a variety of contaminants, together with O3-(Ozone), co-(carbon monoxide), NO2-(nitrogen oxide), SO2-sulphur dioxide, PM2.5, and PM10 (particulate matter). Table 1 shows which gases are released (Kekulanadara et al., 2021).
+---
 
+## Project Status
 
-Pollutant	Produced Sources:
+✅ Active Portfolio Project  
+✅ Machine Learning Prediction Pipeline  
+✅ AQI Forecasting Model  
+✅ Analytics Dashboard Reporting  
+✅ Cloud-style Architecture  
 
-PM2.5	- Power plants, automobiles, wood & agricultural burning.
-PM10	- Dust and smoke 
-CO	- Fuel burning, small-engines, heaters, fireplaces, gas-ranges. 
-NO2	- Auto-mobiles, and power-plants
-SO2	- fossil fuel incineration (coal & oil)
-O3	- power-plants, industrial-boilers, & biological plants
+---
 
-Ailments brought on by air pollution cost the US $37 billion annually as per the association of Lungs in the US. The increased fatality rate is also a result of air pollution. Harmful air has killed over 4.2 million people saying to the global -air 2017 editorial. Both the ecology and the health of living things are harmed by air pollution. A few of the harmful pollution’s effects air pollution on the ecosystem are fluctuations in climate, and ozone weakening. In the latest ages, a significant enlargement in pollution due to industrialization, fast urbanization, and overcrowding. Approximately 90% of people's time is spent indoors. Included in this are hours spent at home, at work, and at school. According to the Environmental Protection Agency, one of the most serious environmental hazards we face daily is indoor air pollution (EPA). Cleaning supplies, personal care items, paint, and other solvents emit hundreds of harmful compounds every day (Kekulanadara et al., 2021).
+## Architecture
 
-In community, a certain disorder will be produced on by each poor air quality factor. An increase in inhalation issues brought on by carbon monoxide results in lower blood oxygen quantities. The respirational system will be impacted by sulphur dioxide, nitrous oxide, and pm2.5, and breathing levels will be impacted by ozone. We must measure and forecast these air pollution factors to regulate them (Saikiran et al., 2021). 
+```text
+Raw AQI Dataset
+        ↓
+Data Cleaning & Feature Engineering
+        ↓
+Machine Learning Model Training
+        ↓
+AQI Prediction & Forecasting
+        ↓
+Analytics Dashboard / Reporting
+```
 
-According to the AQI rating, there are six different categories of air quality which are showing in Table 2 along with AQI readings, relevant air quality levels, and health issues.
+---
 
+## Tech Stack
 
-AQI Value	Air Quality Level & health-concern:
-0 -50	‘Good’
-51 - 100	‘Satisfactory’
-101 - 200	‘Moderate’ - Unhealthy for sensitive people
-201 - 300	‘Poor’ - Unhealthy
-301 - 400	‘Very Poor’ - very unhealthy
-400+	‘Severe’ - Hazardous
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- XGBoost
+- Prophet Forecasting
+- Matplotlib
+- Power BI
+- SQL
+- Azure-style Analytics Concepts
 
-ML techniques have gained prominence as a result of technical developments, notably in predicting. Because ml processes can deal with different aspects, analyzing diverse material from various resources, and solving sophisticated non-linear problems. Some of the techniques are linear / SVR regressions, Decision Tree, K-NN, and XG-Boosting Regression.
+---
 
-AIM:
-Primary objective of this proposal is to determine best accurate machine learning method for developing models that can predict the AQI. I also want to explain how machine learning helps to lower air pollution.
+## Key Features
 
-OBJECTIVES: 
-• Review the AQI-related studies.
-• Conduct a literature study to identify the most common machine learning methods that were used to predict the AQI.
-• To identify and develop the most precise machine learning models for AQI prediction
+- AQI prediction using supervised learning
+- Time series forecasting
+- Data cleansing & preprocessing
+- Feature engineering
+- Model comparison & evaluation
+- Environmental analytics reporting
+- Cloud-ready project structure
+
+---
+
+## Machine Learning Models Used
+
+- Linear Regression
+- Decision Tree Regressor
+- K-Nearest Neighbour (KNN)
+- Support Vector Regression (SVR)
+- XGBoost Regressor
+- Prophet Forecasting
+
+---
+
+## Business Use Case
+
+Air pollution is a major environmental and public health issue affecting urban populations worldwide.
+
+This platform helps:
+- Predict AQI levels
+- Forecast pollution trends
+- Support environmental monitoring
+- Enable data-driven policy decisions
+- Improve public awareness
+
+Potential use cases:
+- Smart city analytics
+- Environmental monitoring systems
+- Government pollution tracking
+- Healthcare impact analysis
+- Urban sustainability reporting
+
+---
+
+## Engineering Concepts Demonstrated
+
+- Data preprocessing pipelines
+- Machine Learning workflows
+- Forecasting techniques
+- Feature engineering
+- Data analytics reporting
+- Cloud analytics architecture
+- Predictive modelling
+- End-to-end ML lifecycle
+
+---
+
+## Future Enhancements
+
+- Deploy model using Azure ML
+- Add real-time AQI streaming
+- Containerize application with Docker
+- Add CI/CD deployment pipeline
+- Integrate weather API ingestion
+- Build interactive dashboard
+- Deploy using cloud infrastructure
+
+---
+
+## Repository Structure
+
+```text
+AQI_Prediction_KP/
+│
+├── data/
+├── notebooks/
+├── models/
+├── visualizations/
+├── powerbi/
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## Dashboard & Reporting
+
+The project can be extended with:
+- AQI trend dashboards
+- Pollution heatmaps
+- Forecast analytics
+- City-wise AQI comparison
+- Real-time monitoring
+
+---
+
+## Author
+
+Korneli Pingula  
+Senior Data Engineer | Azure • AWS • PySpark • SQL • Power BI • Machine Learning
+
+LinkedIn:
+linkedin.com/in/pingulakornelius
+
+GitHub:
+github.com/Kornelius99
