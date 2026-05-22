@@ -148,7 +148,19 @@ AQI_Prediction_KP/
 ├── requirements.txt
 └── README.md
 ```
+## Model Performance Visuals
 
+### AQI Distribution
+![AQI Distribution](visualizations/aqi-distribution.png)
+
+### Correlation Heatmap
+![Correlation Heatmap](visualizations/correlation-heatmap.png)
+
+### Actual vs Predicted AQI
+![Actual vs Predicted](visualizations/actual-vs-predicted.png)
+
+### Feature Importance
+![Feature Importance](visualizations/feature-importance.png)
 ---
 
 ## Dashboard & Reporting
