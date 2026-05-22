@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  aqi-ml-pipeline:
+    build: .
+    container_name: aqi_ml_pipeline
+    command: python src/train_model.py
+    volumes:
+      - .:/app
