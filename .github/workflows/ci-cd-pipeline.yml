@@ -1,0 +1,36 @@
+name: AQI ML Pipeline
+
+on:
+  push:
+    branches:
+      - master
+      - main
+
+jobs:
+  build-and-train:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set Up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run Data Preprocessing
+        run: |
+          python src/data_preprocessing.py
+
+      - name: Train AQI Model
+        run: |
+          python src/train_model.py
+
+      - name: Run Prediction Script
+        run: |
+          python src/predict.py
