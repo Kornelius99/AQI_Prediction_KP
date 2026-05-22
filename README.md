@@ -32,6 +32,9 @@ The project combines:
 ✅ Cloud-style Architecture  
 
 ---
+## Architecture Diagram
+
+![AQI Architecture](visualizations/aqi-architecture.png)
 
 ## Architecture
 
