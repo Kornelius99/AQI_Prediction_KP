@@ -32,9 +32,12 @@ The project combines:
 ✅ Cloud-style Architecture  
 
 ---
+
 ## Architecture Diagram
 
 ![AQI Architecture](visualizations/aqi-architecture.png)
+
+---
 
 ## Architecture
 
@@ -63,6 +66,8 @@ Analytics Dashboard / Reporting
 - Matplotlib
 - Power BI
 - SQL
+- GitHub Actions
+- Docker
 - Azure-style Analytics Concepts
 
 ---
@@ -76,6 +81,9 @@ Analytics Dashboard / Reporting
 - Model comparison & evaluation
 - Environmental analytics reporting
 - Cloud-ready project structure
+- Automated ML workflow execution
+- CI/CD integration
+- Docker containerization
 
 ---
 
@@ -85,6 +93,7 @@ Analytics Dashboard / Reporting
 - Decision Tree Regressor
 - K-Nearest Neighbour (KNN)
 - Support Vector Regression (SVR)
+- Random Forest Regressor
 - XGBoost Regressor
 - Prophet Forecasting
 
@@ -120,34 +129,11 @@ Potential use cases:
 - Cloud analytics architecture
 - Predictive modelling
 - End-to-end ML lifecycle
+- CI/CD automation
+- Dockerized ML pipelines
 
 ---
 
-## Future Enhancements
-
-- Deploy model using Azure ML
-- Add real-time AQI streaming
-- Containerize application with Docker
-- Add CI/CD deployment pipeline
-- Integrate weather API ingestion
-- Build interactive dashboard
-- Deploy using cloud infrastructure
-
----
-
-## Repository Structure
-
-```text
-AQI_Prediction_KP/
-│
-├── data/
-├── notebooks/
-├── models/
-├── visualizations/
-├── powerbi/
-├── requirements.txt
-└── README.md
-```
 ## Model Performance Visuals
 
 ### AQI Distribution
@@ -161,6 +147,151 @@ AQI_Prediction_KP/
 
 ### Feature Importance
 ![Feature Importance](visualizations/feature-importance.png)
+
+---
+
+## CI/CD Pipeline
+
+This project includes a GitHub Actions CI/CD workflow that automatically:
+
+- Installs dependencies
+- Runs preprocessing pipeline
+- Trains AQI prediction model
+- Executes prediction validation
+
+Pipeline file:
+
+```text
+.github/workflows/ci-cd-pipeline.yml
+```
+
+Technologies used:
+- GitHub Actions
+- Python
+- Automated ML workflow execution
+
+---
+
+## Docker Containerization
+
+The AQI ML pipeline is fully containerized using Docker.
+
+### Build Docker Image
+
+```bash
+docker build -t aqi-ml-pipeline .
+```
+
+### Run Docker Container
+
+```bash
+docker run aqi-ml-pipeline
+```
+
+### Docker Compose
+
+```bash
+docker-compose up
+```
+
+Containerized components:
+- Data preprocessing
+- Model training
+- AQI prediction workflow
+
+---
+
+## Production Engineering Features
+
+This repository demonstrates modern production-style engineering practices including:
+
+- Modular Python project structure
+- Automated CI/CD pipeline
+- Docker containerization
+- Machine Learning workflow automation
+- Reusable preprocessing pipeline
+- Model persistence
+- Scalable project architecture
+- Analytics-ready reporting structure
+
+---
+
+## How to Run the Project
+
+### Clone Repository
+
+```bash
+git clone https://github.com/Kornelius99/AQI_Prediction_KP.git
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Train Model
+
+```bash
+python src/train_model.py
+```
+
+### Run Prediction
+
+```bash
+python src/predict.py
+```
+
+---
+
+## Future Enhancements
+
+- Deploy model using Azure ML
+- Add real-time AQI streaming
+- Integrate Apache Kafka
+- Add weather API ingestion
+- Build interactive Power BI dashboard
+- Deploy using Kubernetes
+- Add ML monitoring and drift detection
+- Integrate Terraform Infrastructure-as-Code
+
+---
+
+## Repository Structure
+
+```text
+AQI_Prediction_KP/
+│
+├── data/
+│   └── AQI_Data.csv
+│
+├── models/
+│   └── AQI_Prediction.py
+│
+├── notebooks/
+│   └── AQI_Prediction.ipynb
+│
+├── src/
+│   ├── data_preprocessing.py
+│   ├── train_model.py
+│   └── predict.py
+│
+├── visualizations/
+│   ├── aqi-architecture.png
+│   ├── aqi-distribution.png
+│   ├── correlation-heatmap.png
+│   ├── actual-vs-predicted.png
+│   └── feature-importance.png
+│
+├── .github/workflows/
+│   └── ci-cd-pipeline.yml
+│
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
+└── README.md
+```
+
 ---
 
 ## Dashboard & Reporting
@@ -177,7 +308,7 @@ The project can be extended with:
 ## Author
 
 Korneli Pingula  
-Senior Data Engineer | Azure • AWS • PySpark • SQL • Power BI • Machine Learning
+Senior Data Platform & Analytics Engineer | Azure • AWS • Databricks • PySpark • SQL • Power BI • Machine Learning
 
 LinkedIn:
 linkedin.com/in/pingulakornelius
